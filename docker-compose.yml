@@ -1,0 +1,6 @@
+postgres-ssl:
+  build: .
+
+  ## view available environmental options at the official postgres repo
+  environment: 
+    - POSTGRES_PASSWORD: example
