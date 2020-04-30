@@ -11,7 +11,6 @@ if [ -z "$POSTGRES_EMAIL" ]; then
   export POSTGRES_EMAIL="user@test.com";
 fi
 
-
 if [ ! -s /tmp/docker-entrypoint.sh ]; then
   echo "Their entry script is kinda rough for us. Quick fix."
   head -n -1 /usr/local/bin/docker-entrypoint.sh > /tmp/docker-entrypoint.sh

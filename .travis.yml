@@ -16,4 +16,4 @@ script:
   - docker-compose up -d
   # everything running?
   - docker-compose ps
-  - docker-compose ps squidguard | grep Up
+  - docker-compose ps postgres | grep Up
