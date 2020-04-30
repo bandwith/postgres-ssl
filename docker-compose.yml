@@ -2,5 +2,6 @@ postgres-ssl:
   build: .
 
   ## view available environmental options at the official postgres repo
+  ## https://hub.docker.com/_/postgres
   environment: 
-    - POSTGRES_PASSWORD: example
+    - POSTGRES_PASSWORD=example
