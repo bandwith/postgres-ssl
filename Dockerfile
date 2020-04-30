@@ -1,4 +1,4 @@
-FROM postgres:9.6
+FROM postgres:12
 
 COPY arcts-ssl-entrypoint.sh /usr/local/bin/
 
