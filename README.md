@@ -1,4 +1,4 @@
-# Postgres-SSL
+# Postgres-SSL [![Build Status](https://travis-ci.org/bandwith/postgres-ssl.svg?branch=master)](https://travis-ci.org/bandwith/postgres-ssl)
 
 Docker container automatically generates SSL certificates and requires client certificates to connect.
 
